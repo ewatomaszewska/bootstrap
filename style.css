@@ -1,0 +1,44 @@
+* {
+  margin: 0 auto;
+  text-align: center;
+}
+[class^=col-] {
+  padding: 10px;
+}
+.hero {
+  background:url(https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/9EZMJ58R13.jpg); 
+  background-position:center; 
+  background-size:cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero h1 {
+  color: #ccc;
+  font-size: 2em;
+  text-shadow: 2px 2px 5px #000000;
+  background-color: rgba(0,0,0,0.5);
+  padding: 20px;
+}
+.btn {
+  box-shadow: 1px 1px 1px #000;
+ }
+.main {
+  margin-top: 5%;
+}
+.main h2 {
+  margin-bottom: 20px;
+}
+img {
+  box-shadow: 1px 1px 3px;
+  max-height: 170px;
+}
+img:hover {
+  background-color: #ccc;
+  opacity:0.4;
+  transform: scale(1.1);
+}
+.table {
+  margin-top: 40px;
+}
